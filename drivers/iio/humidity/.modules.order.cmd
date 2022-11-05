@@ -1,1 +1,0 @@
-cmd_drivers/iio/humidity/modules.order := {   echo drivers/iio/humidity/dht11.ko;   echo drivers/iio/humidity/hdc100x.ko;   echo drivers/iio/humidity/htu21.ko; :; } | awk '!x[$$0]++' - > drivers/iio/humidity/modules.order

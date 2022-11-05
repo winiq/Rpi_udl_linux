@@ -1,1 +1,0 @@
-cmd_drivers/media/i2c/ad5398_vcm.ko := aarch64-linux-gnu-ld -r  -EL  -maarch64elf -z noexecstack   --build-id=sha1  -T scripts/module.lds -o drivers/media/i2c/ad5398_vcm.ko drivers/media/i2c/ad5398_vcm.o drivers/media/i2c/ad5398_vcm.mod.o;  true

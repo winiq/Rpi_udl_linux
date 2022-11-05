@@ -1,6 +1,0 @@
-drivers/block/pktcdvd.ko
-drivers/block/nbd.ko
-drivers/block/cryptoloop.ko
-drivers/block/drbd/drbd.ko
-drivers/block/rbd.ko
-drivers/block/zram/zram.ko

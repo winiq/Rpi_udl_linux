@@ -1,1 +1,0 @@
-cmd_drivers/mmc/host/built-in.a := echo >/dev/null; rm -f drivers/mmc/host/built-in.a; aarch64-linux-gnu-ar cDPrST drivers/mmc/host/built-in.a drivers/mmc/host/sdhci.o drivers/mmc/host/sdhci-acpi.o drivers/mmc/host/bcm2835-mmc.o drivers/mmc/host/bcm2835-sdhost.o drivers/mmc/host/sdhci-pltfm.o drivers/mmc/host/sdhci-iproc.o

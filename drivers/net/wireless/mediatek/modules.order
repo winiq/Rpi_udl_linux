@@ -1,9 +1,0 @@
-drivers/net/wireless/mediatek/mt7601u/mt7601u.ko
-drivers/net/wireless/mediatek/mt76/mt76.ko
-drivers/net/wireless/mediatek/mt76/mt76-usb.ko
-drivers/net/wireless/mediatek/mt76/mt76x02-lib.ko
-drivers/net/wireless/mediatek/mt76/mt76x02-usb.ko
-drivers/net/wireless/mediatek/mt76/mt76x0/mt76x0u.ko
-drivers/net/wireless/mediatek/mt76/mt76x0/mt76x0-common.ko
-drivers/net/wireless/mediatek/mt76/mt76x2/mt76x2-common.ko
-drivers/net/wireless/mediatek/mt76/mt76x2/mt76x2u.ko

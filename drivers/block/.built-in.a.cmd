@@ -1,1 +1,0 @@
-cmd_drivers/block/built-in.a := echo >/dev/null; rm -f drivers/block/built-in.a; aarch64-linux-gnu-ar cDPrST drivers/block/built-in.a drivers/block/brd.o drivers/block/loop.o

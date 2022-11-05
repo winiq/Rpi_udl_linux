@@ -1,1 +1,0 @@
-cmd_arch/arm64/crypto/built-in.a := echo >/dev/null; rm -f arch/arm64/crypto/built-in.a; aarch64-linux-gnu-ar cDPrST arch/arm64/crypto/built-in.a arch/arm64/crypto/aes-cipher-core.o arch/arm64/crypto/aes-cipher-glue.o

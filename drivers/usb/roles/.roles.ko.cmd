@@ -1,1 +1,0 @@
-cmd_drivers/usb/roles/roles.ko := aarch64-linux-gnu-ld -r  -EL  -maarch64elf -z noexecstack   --build-id=sha1  -T scripts/module.lds -o drivers/usb/roles/roles.ko drivers/usb/roles/roles.o drivers/usb/roles/roles.mod.o;  true

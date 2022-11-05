@@ -1,1 +1,0 @@
-cmd_net/can/j1939/can-j1939.o := aarch64-linux-gnu-ld  -EL  -maarch64elf -z noexecstack     -r -o net/can/j1939/can-j1939.o net/can/j1939/address-claim.o net/can/j1939/bus.o net/can/j1939/main.o net/can/j1939/socket.o net/can/j1939/transport.o

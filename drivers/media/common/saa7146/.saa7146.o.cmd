@@ -1,1 +1,0 @@
-cmd_drivers/media/common/saa7146/saa7146.o := aarch64-linux-gnu-ld  -EL  -maarch64elf -z noexecstack     -r -o drivers/media/common/saa7146/saa7146.o drivers/media/common/saa7146/saa7146_i2c.o drivers/media/common/saa7146/saa7146_core.o

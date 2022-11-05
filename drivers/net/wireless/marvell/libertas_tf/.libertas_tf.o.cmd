@@ -1,1 +1,0 @@
-cmd_drivers/net/wireless/marvell/libertas_tf/libertas_tf.o := aarch64-linux-gnu-ld  -EL  -maarch64elf -z noexecstack     -r -o drivers/net/wireless/marvell/libertas_tf/libertas_tf.o drivers/net/wireless/marvell/libertas_tf/main.o drivers/net/wireless/marvell/libertas_tf/cmd.o

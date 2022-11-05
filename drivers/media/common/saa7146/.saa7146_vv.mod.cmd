@@ -1,1 +1,0 @@
-cmd_drivers/media/common/saa7146/saa7146_vv.mod := { echo  drivers/media/common/saa7146/saa7146_fops.o drivers/media/common/saa7146/saa7146_video.o drivers/media/common/saa7146/saa7146_hlp.o drivers/media/common/saa7146/saa7146_vbi.o;  echo; } > drivers/media/common/saa7146/saa7146_vv.mod

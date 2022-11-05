@@ -1,1 +1,0 @@
-cmd_drivers/gpu/drm/gud/gud.o := aarch64-linux-gnu-ld  -EL  -maarch64elf -z noexecstack     -r -o drivers/gpu/drm/gud/gud.o drivers/gpu/drm/gud/gud_drv.o drivers/gpu/drm/gud/gud_pipe.o drivers/gpu/drm/gud/gud_connector.o

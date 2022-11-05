@@ -1,1 +1,0 @@
-cmd_drivers/media/usb/dvb-usb/dvb-usb-tbsqbox2ci.o := aarch64-linux-gnu-ld  -EL  -maarch64elf -z noexecstack     -r -o drivers/media/usb/dvb-usb/dvb-usb-tbsqbox2ci.o drivers/media/usb/dvb-usb/tbs-qbox2ci.o

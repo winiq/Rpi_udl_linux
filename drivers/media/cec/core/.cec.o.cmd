@@ -1,1 +1,0 @@
-cmd_drivers/media/cec/core/cec.o := aarch64-linux-gnu-ld  -EL  -maarch64elf -z noexecstack     -r -o drivers/media/cec/core/cec.o drivers/media/cec/core/cec-core.o drivers/media/cec/core/cec-adap.o drivers/media/cec/core/cec-api.o drivers/media/cec/core/cec-notifier.o drivers/media/cec/core/cec-pin.o

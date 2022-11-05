@@ -1,1 +1,0 @@
-cmd_drivers/video/fbdev/modules.order := {   cat drivers/video/fbdev/core/modules.order;   cat drivers/video/fbdev/omap2/modules.order;   echo drivers/video/fbdev/udlfb.ko;   echo drivers/video/fbdev/ssd1307fb.ko;   echo drivers/video/fbdev/rpisense-fb.ko; :; } | awk '!x[$$0]++' - > drivers/video/fbdev/modules.order

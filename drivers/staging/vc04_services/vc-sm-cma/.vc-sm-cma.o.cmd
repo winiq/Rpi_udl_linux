@@ -1,1 +1,0 @@
-cmd_drivers/staging/vc04_services/vc-sm-cma/vc-sm-cma.o := aarch64-linux-gnu-ld  -EL  -maarch64elf -z noexecstack     -r -o drivers/staging/vc04_services/vc-sm-cma/vc-sm-cma.o drivers/staging/vc04_services/vc-sm-cma/vc_sm.o drivers/staging/vc04_services/vc-sm-cma/vc_sm_cma_vchi.o

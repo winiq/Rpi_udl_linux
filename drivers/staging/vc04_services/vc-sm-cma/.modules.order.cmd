@@ -1,1 +1,0 @@
-cmd_drivers/staging/vc04_services/vc-sm-cma/modules.order := {   echo drivers/staging/vc04_services/vc-sm-cma/vc-sm-cma.ko; :; } | awk '!x[$$0]++' - > drivers/staging/vc04_services/vc-sm-cma/modules.order

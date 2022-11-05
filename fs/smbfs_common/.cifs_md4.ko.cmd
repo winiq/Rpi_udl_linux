@@ -1,1 +1,0 @@
-cmd_fs/smbfs_common/cifs_md4.ko := aarch64-linux-gnu-ld -r  -EL  -maarch64elf -z noexecstack   --build-id=sha1  -T scripts/module.lds -o fs/smbfs_common/cifs_md4.ko fs/smbfs_common/cifs_md4.o fs/smbfs_common/cifs_md4.mod.o;  true

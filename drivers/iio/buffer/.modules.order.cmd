@@ -1,1 +1,0 @@
-cmd_drivers/iio/buffer/modules.order := {   echo drivers/iio/buffer/industrialio-buffer-cb.ko;   echo drivers/iio/buffer/industrialio-triggered-buffer.ko;   echo drivers/iio/buffer/kfifo_buf.ko; :; } | awk '!x[$$0]++' - > drivers/iio/buffer/modules.order

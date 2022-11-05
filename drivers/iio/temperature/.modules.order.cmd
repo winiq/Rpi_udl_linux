@@ -1,1 +1,0 @@
-cmd_drivers/iio/temperature/modules.order := {   echo drivers/iio/temperature/maxim_thermocouple.ko;   echo drivers/iio/temperature/max31856.ko; :; } | awk '!x[$$0]++' - > drivers/iio/temperature/modules.order

@@ -1,1 +1,0 @@
-cmd_sound/core/oss/snd-pcm-oss.ko := aarch64-linux-gnu-ld -r  -EL  -maarch64elf -z noexecstack   --build-id=sha1  -T scripts/module.lds -o sound/core/oss/snd-pcm-oss.ko sound/core/oss/snd-pcm-oss.o sound/core/oss/snd-pcm-oss.mod.o;  true

@@ -1,1 +1,0 @@
-cmd_drivers/misc/altera-stapl/altera-stapl.o := aarch64-linux-gnu-ld  -EL  -maarch64elf -z noexecstack     -r -o drivers/misc/altera-stapl/altera-stapl.o drivers/misc/altera-stapl/altera-lpt.o drivers/misc/altera-stapl/altera-jtag.o drivers/misc/altera-stapl/altera-comp.o drivers/misc/altera-stapl/altera.o

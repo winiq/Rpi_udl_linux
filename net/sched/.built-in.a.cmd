@@ -1,1 +1,0 @@
-cmd_net/sched/built-in.a := echo >/dev/null; rm -f net/sched/built-in.a; aarch64-linux-gnu-ar cDPrST net/sched/built-in.a net/sched/sch_generic.o net/sched/sch_mq.o net/sched/sch_frag.o net/sched/sch_api.o net/sched/sch_blackhole.o net/sched/cls_api.o net/sched/act_api.o net/sched/sch_fifo.o net/sched/cls_bpf.o net/sched/ematch.o

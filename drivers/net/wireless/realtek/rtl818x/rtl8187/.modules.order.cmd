@@ -1,1 +1,0 @@
-cmd_drivers/net/wireless/realtek/rtl818x/rtl8187/modules.order := {   echo drivers/net/wireless/realtek/rtl818x/rtl8187/rtl8187.ko; :; } | awk '!x[$$0]++' - > drivers/net/wireless/realtek/rtl818x/rtl8187/modules.order

@@ -1,1 +1,0 @@
-cmd_drivers/pci/controller/dwc/built-in.a := echo >/dev/null; rm -f drivers/pci/controller/dwc/built-in.a; aarch64-linux-gnu-ar cDPrST drivers/pci/controller/dwc/built-in.a drivers/pci/controller/dwc/pcie-al.o drivers/pci/controller/dwc/pcie-hisi.o drivers/pci/controller/dwc/pcie-tegra194-acpi.o

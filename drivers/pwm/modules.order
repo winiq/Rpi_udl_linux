@@ -1,3 +1,0 @@
-drivers/pwm/pwm-bcm2835.ko
-drivers/pwm/pwm-pca9685.ko
-drivers/pwm/pwm-raspberrypi-poe.ko

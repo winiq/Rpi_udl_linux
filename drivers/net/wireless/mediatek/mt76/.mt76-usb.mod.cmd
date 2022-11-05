@@ -1,1 +1,0 @@
-cmd_drivers/net/wireless/mediatek/mt76/mt76-usb.mod := { echo  drivers/net/wireless/mediatek/mt76/usb.o drivers/net/wireless/mediatek/mt76/usb_trace.o;  echo; } > drivers/net/wireless/mediatek/mt76/mt76-usb.mod

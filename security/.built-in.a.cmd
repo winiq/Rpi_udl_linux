@@ -1,1 +1,0 @@
-cmd_security/built-in.a := echo >/dev/null; rm -f security/built-in.a; aarch64-linux-gnu-ar cDPrST security/built-in.a security/keys/built-in.a security/commoncap.o security/min_addr.o security/security.o security/inode.o security/lsm_audit.o security/apparmor/built-in.a security/device_cgroup.o security/integrity/built-in.a

@@ -1,1 +1,0 @@
-cmd_drivers/media/test-drivers/vim2m.ko := aarch64-linux-gnu-ld -r  -EL  -maarch64elf -z noexecstack   --build-id=sha1  -T scripts/module.lds -o drivers/media/test-drivers/vim2m.ko drivers/media/test-drivers/vim2m.o drivers/media/test-drivers/vim2m.mod.o;  true

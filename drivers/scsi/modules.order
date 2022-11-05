@@ -1,6 +1,0 @@
-drivers/scsi/libiscsi.ko
-drivers/scsi/libiscsi_tcp.ko
-drivers/scsi/iscsi_tcp.ko
-drivers/scsi/st.ko
-drivers/scsi/sr_mod.ko
-drivers/scsi/sg.ko

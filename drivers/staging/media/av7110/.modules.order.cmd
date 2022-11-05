@@ -1,1 +1,0 @@
-cmd_drivers/staging/media/av7110/modules.order := {   echo drivers/staging/media/av7110/dvb-ttpci.ko;   echo drivers/staging/media/av7110/sp8870.ko; :; } | awk '!x[$$0]++' - > drivers/staging/media/av7110/modules.order

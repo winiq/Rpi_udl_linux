@@ -1,1 +1,0 @@
-cmd_sound/soc/codecs/snd-soc-pcm1794a.ko := aarch64-linux-gnu-ld -r  -EL  -maarch64elf -z noexecstack   --build-id=sha1  -T scripts/module.lds -o sound/soc/codecs/snd-soc-pcm1794a.ko sound/soc/codecs/snd-soc-pcm1794a.o sound/soc/codecs/snd-soc-pcm1794a.mod.o;  true

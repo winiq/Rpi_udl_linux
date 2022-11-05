@@ -1,1 +1,0 @@
-cmd_drivers/staging/vc04_services/bcm2835-audio/modules.order := {   echo drivers/staging/vc04_services/bcm2835-audio/snd-bcm2835.ko; :; } | awk '!x[$$0]++' - > drivers/staging/vc04_services/bcm2835-audio/modules.order

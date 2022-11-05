@@ -1,1 +1,0 @@
-cmd_drivers/md/dm-cache.mod := { echo  drivers/md/dm-cache-target.o drivers/md/dm-cache-metadata.o drivers/md/dm-cache-policy.o drivers/md/dm-cache-background-tracker.o;  echo; } > drivers/md/dm-cache.mod

@@ -1,1 +1,0 @@
-cmd_drivers/staging/media/av7110/sp8870.ko := aarch64-linux-gnu-ld -r  -EL  -maarch64elf -z noexecstack   --build-id=sha1  -T scripts/module.lds -o drivers/staging/media/av7110/sp8870.ko drivers/staging/media/av7110/sp8870.o drivers/staging/media/av7110/sp8870.mod.o;  true

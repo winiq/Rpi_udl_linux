@@ -1,1 +1,0 @@
-cmd_drivers/net/can/usb/modules.order := {   echo drivers/net/can/usb/ems_usb.ko;   echo drivers/net/can/usb/gs_usb.ko;   cat drivers/net/can/usb/peak_usb/modules.order; :; } | awk '!x[$$0]++' - > drivers/net/can/usb/modules.order

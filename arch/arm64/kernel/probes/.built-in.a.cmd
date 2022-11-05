@@ -1,1 +1,0 @@
-cmd_arch/arm64/kernel/probes/built-in.a := echo >/dev/null; rm -f arch/arm64/kernel/probes/built-in.a; aarch64-linux-gnu-ar cDPrST arch/arm64/kernel/probes/built-in.a arch/arm64/kernel/probes/kprobes.o arch/arm64/kernel/probes/decode-insn.o arch/arm64/kernel/probes/kprobes_trampoline.o arch/arm64/kernel/probes/simulate-insn.o

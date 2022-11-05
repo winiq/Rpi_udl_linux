@@ -1,1 +1,0 @@
-cmd_drivers/media/usb/dvb-usb/modules.order := {   echo drivers/media/usb/dvb-usb/dvb-usb.ko;   echo drivers/media/usb/dvb-usb/dvb-usb-dw2102.ko;   echo drivers/media/usb/dvb-usb/dvb-usb-tbsqbox2ci.ko; :; } | awk '!x[$$0]++' - > drivers/media/usb/dvb-usb/modules.order

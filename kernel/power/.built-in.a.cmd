@@ -1,1 +1,0 @@
-cmd_kernel/power/built-in.a := echo >/dev/null; rm -f kernel/power/built-in.a; aarch64-linux-gnu-ar cDPrST kernel/power/built-in.a kernel/power/qos.o kernel/power/main.o kernel/power/process.o kernel/power/poweroff.o

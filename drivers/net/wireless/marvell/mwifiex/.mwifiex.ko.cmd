@@ -1,1 +1,0 @@
-cmd_drivers/net/wireless/marvell/mwifiex/mwifiex.ko := aarch64-linux-gnu-ld -r  -EL  -maarch64elf -z noexecstack   --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/marvell/mwifiex/mwifiex.ko drivers/net/wireless/marvell/mwifiex/mwifiex.o drivers/net/wireless/marvell/mwifiex/mwifiex.mod.o;  true

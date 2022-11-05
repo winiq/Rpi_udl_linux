@@ -1,1 +1,0 @@
-cmd_drivers/ata/pata_acpi.ko := aarch64-linux-gnu-ld -r  -EL  -maarch64elf -z noexecstack   --build-id=sha1  -T scripts/module.lds -o drivers/ata/pata_acpi.ko drivers/ata/pata_acpi.o drivers/ata/pata_acpi.mod.o;  true

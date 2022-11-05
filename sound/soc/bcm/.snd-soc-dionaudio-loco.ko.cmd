@@ -1,1 +1,0 @@
-cmd_sound/soc/bcm/snd-soc-dionaudio-loco.ko := aarch64-linux-gnu-ld -r  -EL  -maarch64elf -z noexecstack   --build-id=sha1  -T scripts/module.lds -o sound/soc/bcm/snd-soc-dionaudio-loco.ko sound/soc/bcm/snd-soc-dionaudio-loco.o sound/soc/bcm/snd-soc-dionaudio-loco.mod.o;  true
