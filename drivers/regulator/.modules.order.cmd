@@ -1,0 +1,1 @@
+cmd_drivers/regulator/modules.order := {   echo drivers/regulator/arizona-ldo1.ko;   echo drivers/regulator/arizona-micsupp.ko;   echo drivers/regulator/rpi-panel-attiny-regulator.ko; :; } | awk '!x[$$0]++' - > drivers/regulator/modules.order

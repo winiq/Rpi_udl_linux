@@ -1,0 +1,33 @@
+!<thin>
+//                                              330       `
+led-core.o/
+led-class.o/
+led-triggers.o/
+leds-gpio.o/
+leds-pwm.o/
+trigger/ledtrig-timer.o/
+trigger/ledtrig-oneshot.o/
+trigger/ledtrig-heartbeat.o/
+trigger/ledtrig-backlight.o/
+trigger/ledtrig-gpio.o/
+trigger/ledtrig-cpu.o/
+trigger/ledtrig-default-on.o/
+trigger/ledtrig-input.o/
+trigger/ledtrig-panic.o/
+trigger/ledtrig-actpwr.o/
+
+/0              0           0     0     644     29648     `
+/12             0           0     0     644     22024     `
+/25             0           0     0     644     25504     `
+/41             0           0     0     644     9448      `
+/54             0           0     0     644     7640      `
+/66             0           0     0     644     6888      `
+/91             0           0     0     644     8184      `
+/118            0           0     0     644     9024      `
+/147            0           0     0     644     6592      `
+/176            0           0     0     644     8936      `
+/200            0           0     0     644     7640      `
+/223            0           0     0     644     4200      `
+/253            0           0     0     644     4312      `
+/278            0           0     0     644     4160      `
+/303            0           0     0     644     7192      `

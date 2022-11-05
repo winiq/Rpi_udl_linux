@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/iforce/iforce.mod := { echo  drivers/input/joystick/iforce/iforce-ff.o drivers/input/joystick/iforce/iforce-main.o drivers/input/joystick/iforce/iforce-packets.o;  echo; } > drivers/input/joystick/iforce/iforce.mod

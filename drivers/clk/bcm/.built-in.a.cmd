@@ -1,0 +1,1 @@
+cmd_drivers/clk/bcm/built-in.a := echo >/dev/null; rm -f drivers/clk/bcm/built-in.a; aarch64-linux-gnu-ar cDPrST drivers/clk/bcm/built-in.a drivers/clk/bcm/clk-bcm2711-dvp.o drivers/clk/bcm/clk-bcm2835.o drivers/clk/bcm/clk-bcm2835-aux.o drivers/clk/bcm/clk-raspberrypi.o

@@ -1,0 +1,1 @@
+cmd_drivers/net/can/modules.order := {   cat drivers/net/can/dev/modules.order;   cat drivers/net/can/rcar/modules.order;   cat drivers/net/can/spi/modules.order;   cat drivers/net/can/usb/modules.order;   cat drivers/net/can/softing/modules.order;   echo drivers/net/can/vcan.ko;   echo drivers/net/can/slcan.ko; :; } | awk '!x[$$0]++' - > drivers/net/can/modules.order

@@ -1,0 +1,1 @@
+cmd_drivers/char/hw_random/built-in.a := echo >/dev/null; rm -f drivers/char/hw_random/built-in.a; aarch64-linux-gnu-ar cDPrST drivers/char/hw_random/built-in.a drivers/char/hw_random/core.o drivers/char/hw_random/bcm2835-rng.o drivers/char/hw_random/iproc-rng200.o drivers/char/hw_random/arm_smccc_trng.o

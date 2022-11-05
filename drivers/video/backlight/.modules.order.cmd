@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/modules.order := {   echo drivers/video/backlight/backlight.ko;   echo drivers/video/backlight/gpio_backlight.ko;   echo drivers/video/backlight/pwm_bl.ko;   echo drivers/video/backlight/rpi_backlight.ko; :; } | awk '!x[$$0]++' - > drivers/video/backlight/modules.order

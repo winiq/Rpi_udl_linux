@@ -1,0 +1,1 @@
+cmd_drivers/net/can/dev/can-dev.o := aarch64-linux-gnu-ld  -EL  -maarch64elf -z noexecstack     -r -o drivers/net/can/dev/can-dev.o drivers/net/can/dev/bittiming.o drivers/net/can/dev/dev.o drivers/net/can/dev/length.o drivers/net/can/dev/netlink.o drivers/net/can/dev/rx-offload.o drivers/net/can/dev/skb.o

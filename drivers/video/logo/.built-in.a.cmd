@@ -1,0 +1,1 @@
+cmd_drivers/video/logo/built-in.a := echo >/dev/null; rm -f drivers/video/logo/built-in.a; aarch64-linux-gnu-ar cDPrST drivers/video/logo/built-in.a drivers/video/logo/logo.o drivers/video/logo/logo_linux_clut224.o

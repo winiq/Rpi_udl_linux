@@ -1,0 +1,1 @@
+cmd_drivers/accessibility/speakup/modules.order := {   echo drivers/accessibility/speakup/speakup_soft.ko;   echo drivers/accessibility/speakup/speakup.ko; :; } | awk '!x[$$0]++' - > drivers/accessibility/speakup/modules.order

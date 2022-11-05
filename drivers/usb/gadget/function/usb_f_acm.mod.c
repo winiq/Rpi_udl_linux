@@ -1,0 +1,68 @@
+#include <linux/module.h>
+#define INCLUDE_VERMAGIC
+#include <linux/build-salt.h>
+#include <linux/elfnote-lto.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+BUILD_SALT;
+BUILD_LTO_INFO;
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+MODULE_INFO(name, KBUILD_MODNAME);
+
+__visible struct module __this_module
+__section(".gnu.linkonce.this_module") = {
+	.name = KBUILD_MODNAME,
+	.init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+	.exit = cleanup_module,
+#endif
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+#ifdef CONFIG_RETPOLINE
+MODULE_INFO(retpoline, "Y");
+#endif
+
+static const struct modversion_info ____versions[]
+__used __section("__versions") = {
+	{ 0x460c70a6, "module_layout" },
+	{ 0x6162d11a, "kmalloc_caches" },
+	{ 0x6db3c675, "gserial_resume" },
+	{ 0x35c8f250, "usb_gstrings_attach" },
+	{ 0xd6099f7a, "usb_free_all_descriptors" },
+	{ 0xb5b54b34, "_raw_spin_unlock" },
+	{ 0x8a9c137d, "gserial_connect" },
+	{ 0x9eb52803, "usb_ep_disable" },
+	{ 0xaf201fa6, "usb_ep_enable" },
+	{ 0x506ab3a9, "usb_ep_queue" },
+	{ 0xa8c3b4b, "usb_ep_set_halt" },
+	{ 0x3c3ff9fd, "sprintf" },
+	{ 0x93bd6ea7, "usb_function_unregister" },
+	{ 0x3533e9bf, "usb_put_function_instance" },
+	{ 0x6e93807c, "usb_ep_autoconfig" },
+	{ 0xf1db649e, "gserial_disconnect" },
+	{ 0xab1be1a0, "gserial_suspend" },
+	{ 0x4a3df9d0, "gs_alloc_req" },
+	{ 0x94a2018c, "config_group_init_type_name" },
+	{ 0xa6c96402, "_dev_err" },
+	{ 0x33bfdca2, "gserial_alloc_line" },
+	{ 0xfdfc3547, "usb_function_register" },
+	{ 0x8db4107e, "config_ep_by_speed" },
+	{ 0x9eb7065e, "kmem_cache_alloc_trace" },
+	{ 0xba8fbd64, "_raw_spin_lock" },
+	{ 0x37a0cba, "kfree" },
+	{ 0x4829a47e, "memcpy" },
+	{ 0xb6652875, "gserial_free_line" },
+	{ 0x6ba77cc9, "usb_assign_descriptors" },
+	{ 0xfe783c2d, "usb_interface_id" },
+	{ 0x60ea48a0, "gs_free_req" },
+};
+
+MODULE_INFO(depends, "u_serial,libcomposite");
+
+
+MODULE_INFO(srcversion, "B4C17A8AD715C8CA24C0169");

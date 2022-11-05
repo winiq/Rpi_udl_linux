@@ -1,0 +1,1 @@
+cmd_drivers/staging/vc04_services/vchiq-mmal/bcm2835-mmal-vchiq.mod := { echo  drivers/staging/vc04_services/vchiq-mmal/mmal-vchiq.o;  echo; } > drivers/staging/vc04_services/vchiq-mmal/bcm2835-mmal-vchiq.mod

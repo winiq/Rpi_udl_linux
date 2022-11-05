@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/marvell/libertas_tf/libertas_tf.mod := { echo  drivers/net/wireless/marvell/libertas_tf/main.o drivers/net/wireless/marvell/libertas_tf/cmd.o;  echo; } > drivers/net/wireless/marvell/libertas_tf/libertas_tf.mod

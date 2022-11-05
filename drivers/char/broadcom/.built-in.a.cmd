@@ -1,0 +1,1 @@
+cmd_drivers/char/broadcom/built-in.a := echo >/dev/null; rm -f drivers/char/broadcom/built-in.a; aarch64-linux-gnu-ar cDPrST drivers/char/broadcom/built-in.a drivers/char/broadcom/vc_mem.o drivers/char/broadcom/vcio.o drivers/char/broadcom/bcm2835-gpiomem.o

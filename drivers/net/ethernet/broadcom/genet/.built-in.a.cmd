@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/broadcom/genet/built-in.a := echo >/dev/null; rm -f drivers/net/ethernet/broadcom/genet/built-in.a; aarch64-linux-gnu-ar cDPrST drivers/net/ethernet/broadcom/genet/built-in.a drivers/net/ethernet/broadcom/genet/bcmgenet.o drivers/net/ethernet/broadcom/genet/bcmmii.o drivers/net/ethernet/broadcom/genet/bcmgenet_wol.o

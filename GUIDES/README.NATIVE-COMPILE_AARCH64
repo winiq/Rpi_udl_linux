@@ -1,0 +1,29 @@
+# For compiling native for all RPi armv8 chip devices (64 bit)
+
+# Clone repo, compile and install the kernel:
+
+git clone https://gitlab.com/Dark-Sky/rpi-linux-udl.git
+cd rpi-linux-udl
+
+# INSTALL NEW SANITIZED UAPI HEADERS FOR USER SPACE APPS
+# (THIS WILL INCLUDE THE NEEDED DVB HEADERS)
+
+sudo cp -Rv ./sanitized-headers/include/* /usr/include
+
+export MAKEFLAGS="-j4"
+make bcm2711-udl_defconfig
+make Image modules dtbs
+
+sudo make modules_install
+sudo cp -v arch/arm64/boot/Image /boot/kernel8.img
+cp -v arch/arm64/boot/dts/broadcom/*.dtb /path-to-sdcard-fat32-partition/
+cp -v arch/arm64/boot/dts/overlays/*.dtbo* /path-to-sdcard-fat32-partition/overlays/
+cp -v arch/arm64/boot/dts/overlays/README /path-to-sdcard-fat32-partition/overlays/
+
+# Install the updated firmware:
+
+cd firmware
+sudo make install
+
+sudo sync
+sudo reboot

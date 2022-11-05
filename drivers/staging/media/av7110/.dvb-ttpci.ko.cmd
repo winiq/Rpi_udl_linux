@@ -1,0 +1,1 @@
+cmd_drivers/staging/media/av7110/dvb-ttpci.ko := aarch64-linux-gnu-ld -r  -EL  -maarch64elf -z noexecstack   --build-id=sha1  -T scripts/module.lds -o drivers/staging/media/av7110/dvb-ttpci.ko drivers/staging/media/av7110/dvb-ttpci.o drivers/staging/media/av7110/dvb-ttpci.mod.o;  true

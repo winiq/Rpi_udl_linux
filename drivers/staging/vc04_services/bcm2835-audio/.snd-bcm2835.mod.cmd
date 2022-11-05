@@ -1,0 +1,1 @@
+cmd_drivers/staging/vc04_services/bcm2835-audio/snd-bcm2835.mod := { echo  drivers/staging/vc04_services/bcm2835-audio/bcm2835.o drivers/staging/vc04_services/bcm2835-audio/bcm2835-ctl.o drivers/staging/vc04_services/bcm2835-audio/bcm2835-pcm.o drivers/staging/vc04_services/bcm2835-audio/bcm2835-vchiq.o;  echo; } > drivers/staging/vc04_services/bcm2835-audio/snd-bcm2835.mod

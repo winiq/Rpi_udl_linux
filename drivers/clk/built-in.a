@@ -1,0 +1,38 @@
+!<thin>
+//                                              292       `
+clk-devres.o/
+clk-bulk.o/
+clkdev.o/
+clk.o/
+clk-divider.o/
+clk-fixed-factor.o/
+clk-fixed-rate.o/
+clk-gate.o/
+clk-multiplier.o/
+clk-mux.o/
+clk-composite.o/
+clk-fractional-divider.o/
+clk-gpio.o/
+clk-conf.o/
+bcm/clk-bcm2711-dvp.o/
+bcm/clk-bcm2835.o/
+bcm/clk-bcm2835-aux.o/
+bcm/clk-raspberrypi.o/
+/0              0           0     0     644     11824     `
+/14             0           0     0     644     13016     `
+/26             0           0     0     644     19096     `
+/36             0           0     0     644     197200    `
+/43             0           0     0     644     23360     `
+/58             0           0     0     644     16464     `
+/78             0           0     0     644     12408     `
+/96             0           0     0     644     10592     `
+/108            0           0     0     644     5048      `
+/126            0           0     0     644     14848     `
+/137            0           0     0     644     11088     `
+/154            0           0     0     644     8480      `
+/180            0           0     0     644     8312      `
+/192            0           0     0     644     5872      `
+/204            0           0     0     644     6416      `
+/227            0           0     0     644     37560     `
+/246            0           0     0     644     5264      `
+/269            0           0     0     644     11632     `

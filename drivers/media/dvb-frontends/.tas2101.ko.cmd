@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/tas2101.ko := aarch64-linux-gnu-ld -r  -EL  -maarch64elf -z noexecstack   --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-frontends/tas2101.ko drivers/media/dvb-frontends/tas2101.o drivers/media/dvb-frontends/tas2101.mod.o;  true

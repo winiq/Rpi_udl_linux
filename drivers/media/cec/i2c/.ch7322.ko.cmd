@@ -1,0 +1,1 @@
+cmd_drivers/media/cec/i2c/ch7322.ko := aarch64-linux-gnu-ld -r  -EL  -maarch64elf -z noexecstack   --build-id=sha1  -T scripts/module.lds -o drivers/media/cec/i2c/ch7322.ko drivers/media/cec/i2c/ch7322.o drivers/media/cec/i2c/ch7322.mod.o;  true

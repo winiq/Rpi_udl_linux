@@ -1,0 +1,37 @@
+# For compiling native on the RPi 4 series devices (32 bit)
+
+# CLONE REPO & COMPILE KERNEL
+
+git clone https://gitlab.com/Dark-Sky/rpi-linux-udl.git
+cd rpi-linux-udl
+
+# INSTALL NEW SANITIZED UAPI HEADERS FOR USER SPACE APPS
+# (THIS WILL INCLUDE THE NEEDED DVB HEADERS)
+
+sudo cp -Rv ./sanitized-headers/include/* /usr/include
+
+# Compile the kernel
+
+make -j4 bcm2711-udl_defconfig
+make -j4 zImage modules dtbs
+
+# INSTALL KERNEL & RELATED FILES TO THE SYSTEM
+
+sudo cp /boot/kernel7l.img /boot/kernel7l.img-sav   # Back up existing kernel
+sudo cp arch/arm/boot/zImage /boot/kernel7l.img
+sudo make modules_install
+
+# INSTALL KERNEL BLOBS TO /BOOT
+
+sudo cp -v arch/arm/boot/dts/*.dtb /boot
+sudo cp -v arch/arm/boot/dts/overlays/*.dtb* /boot/overlays/
+sudo cp -v arch/arm/boot/dts/overlays/README /boot/overlays/
+
+# Install the updated firmware:
+
+cd firmware
+sudo make install
+
+sudo sync
+
+sudo reboot

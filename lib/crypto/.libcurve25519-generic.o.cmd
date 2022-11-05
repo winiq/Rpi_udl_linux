@@ -1,0 +1,1 @@
+cmd_lib/crypto/libcurve25519-generic.o := aarch64-linux-gnu-ld  -EL  -maarch64elf -z noexecstack     -r -o lib/crypto/libcurve25519-generic.o lib/crypto/curve25519-hacl64.o lib/crypto/curve25519-generic.o

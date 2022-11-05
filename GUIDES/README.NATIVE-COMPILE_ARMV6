@@ -1,0 +1,40 @@
+# For compiling native on the RPi (32 bit armv6 devices)
+
+# Be prepared for a long time to compile this.
+# It will be tons faster choosing to cross-compile
+
+# CLONE REPO & COMPILE KERNEL
+
+git clone https://gitlab.com/Dark-Sky/rpi-linux-udl.git
+cd rpi-linux-udl
+
+# INSTALL NEW SANITIZED UAPI HEADERS FOR USER SPACE APPS
+# (THIS WILL INCLUDE THE NEEDED DVB HEADERS)
+
+sudo cp -Rv ./sanitized-headers/include/* /usr/include
+
+# Compile the kernel
+
+make bcmrpi-udl_defconfig
+make zImage modules dtbs
+
+# INSTALL KERNEL & RELATED FILES TO THE SYSTEM
+
+sudo cp /boot/kernel.img /boot/kernel.img-sav   # Back up existing kernel
+sudo cp arch/arm/boot/zImage /boot/kernel.img    # Copy new kernel to /boot
+sudo make modules_install   # Installs modules
+
+# INSTALL KERNEL BLOBS TO /BOOT
+
+sudo cp -v arch/arm/boot/dts/*.dtb /boot
+sudo cp -v arch/arm/boot/dts/overlays/*.dtb* /boot/overlays/
+sudo cp -v arch/arm/boot/dts/overlays/README /boot/overlays/
+
+# Install the updated firmware:
+
+cd firmware
+sudo make install
+
+sudo sync
+
+sudo reboot

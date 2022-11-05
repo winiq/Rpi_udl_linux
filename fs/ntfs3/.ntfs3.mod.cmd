@@ -1,0 +1,1 @@
+cmd_fs/ntfs3/ntfs3.mod := { echo  fs/ntfs3/attrib.o fs/ntfs3/attrlist.o fs/ntfs3/bitfunc.o fs/ntfs3/bitmap.o fs/ntfs3/dir.o fs/ntfs3/fsntfs.o fs/ntfs3/frecord.o fs/ntfs3/file.o fs/ntfs3/fslog.o fs/ntfs3/inode.o fs/ntfs3/index.o fs/ntfs3/lznt.o fs/ntfs3/namei.o fs/ntfs3/record.o fs/ntfs3/run.o fs/ntfs3/super.o fs/ntfs3/upcase.o fs/ntfs3/xattr.o;  echo; } > fs/ntfs3/ntfs3.mod

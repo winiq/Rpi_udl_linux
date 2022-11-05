@@ -1,0 +1,16 @@
+lib/math/cordic.ko
+lib/crypto/libchacha.ko
+lib/crypto/libarc4.ko
+lib/crypto/libchacha20poly1305.ko
+lib/crypto/libcurve25519-generic.ko
+lib/crypto/libcurve25519.ko
+lib/crypto/libpoly1305.ko
+lib/crypto/libsm4.ko
+lib/crc-ccitt.ko
+lib/crc7.ko
+lib/crc8.ko
+lib/raid6/raid6_pq.ko
+lib/ts_kmp.ko
+lib/ts_bm.ko
+lib/ts_fsm.ko
+lib/lru_cache.ko

@@ -1,0 +1,3 @@
+drivers/clk/clk-allo-dac.ko
+drivers/clk/clk-hifiberry-dacpro.ko
+drivers/clk/clk-hifiberry-dachd.ko

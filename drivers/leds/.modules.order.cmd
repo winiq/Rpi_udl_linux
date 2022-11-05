@@ -1,0 +1,1 @@
+cmd_drivers/leds/modules.order := {   cat drivers/leds/trigger/modules.order;   cat drivers/leds/blink/modules.order;   echo drivers/leds/leds-is31fl32xx.ko;   echo drivers/leds/leds-pca9532.ko;   echo drivers/leds/leds-pca955x.ko;   echo drivers/leds/leds-pca963x.ko; :; } | awk '!x[$$0]++' - > drivers/leds/modules.order

@@ -1,0 +1,1 @@
+cmd_drivers/media/common/saa7146/modules.order := {   echo drivers/media/common/saa7146/saa7146.ko;   echo drivers/media/common/saa7146/saa7146_vv.ko; :; } | awk '!x[$$0]++' - > drivers/media/common/saa7146/modules.order

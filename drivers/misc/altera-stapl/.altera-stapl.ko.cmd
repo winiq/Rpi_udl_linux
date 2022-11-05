@@ -1,0 +1,1 @@
+cmd_drivers/misc/altera-stapl/altera-stapl.ko := aarch64-linux-gnu-ld -r  -EL  -maarch64elf -z noexecstack   --build-id=sha1  -T scripts/module.lds -o drivers/misc/altera-stapl/altera-stapl.ko drivers/misc/altera-stapl/altera-stapl.o drivers/misc/altera-stapl/altera-stapl.mod.o;  true

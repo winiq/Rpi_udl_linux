@@ -1,0 +1,9 @@
+!<thin>
+//                                              84        `
+broadcom/genet/bcmgenet.o/
+broadcom/genet/bcmmii.o/
+broadcom/genet/bcmgenet_wol.o/
+
+/0              0           0     0     644     67120     `
+/27             0           0     0     644     11896     `
+/52             0           0     0     644     4696      `

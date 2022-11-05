@@ -1,0 +1,1 @@
+cmd_drivers/staging/vc04_services/vc-sm-cma/vc-sm-cma.mod := { echo  drivers/staging/vc04_services/vc-sm-cma/vc_sm.o drivers/staging/vc04_services/vc-sm-cma/vc_sm_cma_vchi.o;  echo; } > drivers/staging/vc04_services/vc-sm-cma/vc-sm-cma.mod

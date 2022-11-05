@@ -1,0 +1,66 @@
+!<thin>
+//                                              718       `
+pci-quirks.o/
+xhci.o/
+xhci-mem.o/
+xhci-ext-caps.o/
+xhci-ring.o/
+xhci-hub.o/
+xhci-dbg.o/
+xhci-trace.o/
+xhci-debugfs.o/
+xhci-pci.o/
+xhci-plat.o/
+dwc_otg/dwc_otg_driver.o/
+dwc_otg/dwc_otg_attr.o/
+dwc_otg/dwc_otg_cil.o/
+dwc_otg/dwc_otg_cil_intr.o/
+dwc_otg/dwc_otg_pcd_linux.o/
+dwc_otg/dwc_otg_pcd.o/
+dwc_otg/dwc_otg_pcd_intr.o/
+dwc_otg/dwc_otg_hcd.o/
+dwc_otg/dwc_otg_hcd_linux.o/
+dwc_otg/dwc_otg_hcd_intr.o/
+dwc_otg/dwc_otg_hcd_queue.o/
+dwc_otg/dwc_otg_hcd_ddma.o/
+dwc_otg/dwc_otg_adp.o/
+dwc_otg/dwc_otg_fiq_fsm.o/
+dwc_common_port/dwc_cc.o/
+dwc_common_port/dwc_modpow.o/
+dwc_common_port/dwc_dh.o/
+dwc_common_port/dwc_crypto.o/
+dwc_common_port/dwc_notifier.o/
+dwc_common_port/dwc_common_linux.o/
+dwc_common_port/dwc_mem.o/
+/0              0           0     0     644     32576     `
+/14             0           0     0     644     111632    `
+/22             0           0     0     644     42640     `
+/34             0           0     0     644     5864      `
+/51             0           0     0     644     65840     `
+/64             0           0     0     644     28912     `
+/76             0           0     0     644     3744      `
+/88             0           0     0     644     122424    `
+/102            0           0     0     644     38736     `
+/118            0           0     0     644     16208     `
+/130            0           0     0     644     18568     `
+/143            0           0     0     644     57032     `
+/169            0           0     0     644     33648     `
+/193            0           0     0     644     132280    `
+/216            0           0     0     644     20776     `
+/244            0           0     0     644     20416     `
+/273            0           0     0     644     25696     `
+/296            0           0     0     644     48776     `
+/324            0           0     0     644     51112     `
+/347            0           0     0     644     17376     `
+/376            0           0     0     644     31416     `
+/404            0           0     0     644     12328     `
+/433            0           0     0     644     13304     `
+/461            0           0     0     644     13688     `
+/484            0           0     0     644     10096     `
+/511            0           0     0     644     10400     `
+/537            0           0     0     644     1112      `
+/567            0           0     0     644     1104      `
+/593            0           0     0     644     1112      `
+/623            0           0     0     644     8112      `
+/655            0           0     0     644     107344    `
+/691            0           0     0     644     1104      `

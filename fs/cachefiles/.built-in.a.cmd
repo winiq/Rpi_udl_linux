@@ -1,0 +1,1 @@
+cmd_fs/cachefiles/built-in.a := echo >/dev/null; rm -f fs/cachefiles/built-in.a; aarch64-linux-gnu-ar cDPrST fs/cachefiles/built-in.a fs/cachefiles/bind.o fs/cachefiles/daemon.o fs/cachefiles/interface.o fs/cachefiles/io.o fs/cachefiles/key.o fs/cachefiles/main.o fs/cachefiles/namei.o fs/cachefiles/rdwr.o fs/cachefiles/security.o fs/cachefiles/xattr.o

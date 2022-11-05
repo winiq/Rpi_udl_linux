@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/microchip/lan743x.mod := { echo  drivers/net/ethernet/microchip/lan743x_main.o drivers/net/ethernet/microchip/lan743x_ethtool.o drivers/net/ethernet/microchip/lan743x_ptp.o;  echo; } > drivers/net/ethernet/microchip/lan743x.mod

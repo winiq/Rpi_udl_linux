@@ -1,0 +1,1 @@
+cmd_drivers/usb/usbip/modules.order := {   echo drivers/usb/usbip/usbip-core.ko;   echo drivers/usb/usbip/vhci-hcd.ko;   echo drivers/usb/usbip/usbip-host.ko;   echo drivers/usb/usbip/usbip-vudc.ko; :; } | awk '!x[$$0]++' - > drivers/usb/usbip/modules.order

@@ -1,0 +1,61 @@
+# For cross-compiling on a x64 desktop for RPi devices. EXCLUDING PI-4's (32 bit)
+
+# GET THE THE CROSS-COMPILE TOOLCHAIN AND INSTALL IT
+
+wget https://armkeil.blob.core.windows.net/developer/Files/downloads/gnu-rm/8-2018q4/gcc-arm-none-eabi-8-2018-q4-major-linux.tar.bz2
+
+mkdir /opt
+tar -xvf gcc-arm-none-eabi-8-2018-q4-major-linux.tar.bz2 -C /opt
+
+# Put your sdcard with the arch-pi OS on it you want to upgrade the kernel in your x64 computer
+# and make sure the BOOT & ROOT partitions are mounted
+
+# CLONE REPO
+
+git clone https://gitlab.com/Dark-Sky/rpi-linux-udl.git
+
+# SET UP ENVIORMENTAL VARIABLES (HAS TO BE DONE EACH TIME YOU COMPILE)
+
+export PATH=/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/:${PATH}
+export MAKEFLAGS="-j4"
+
+# COMPILE KERNEL
+
+cd rpi-linux-udl
+make ARCH=arm CROSS_COMPILE=arm-none-eabi- bcm2709-udl_defconfig
+make ARCH=arm CROSS_COMPILE=arm-none-eabi- zImage modules dtbs
+
+# INSTALL THE KERNEL TO THE SDCARD
+
+# BACK UP EXISTING KERNEL TO BE SAFE
+
+sudo cp /path-to-sdcard-fat32-partition/kernel7.img /path-to-sdcard-fat32-partition/kernel7.img-sav
+
+# COPY zImage AND RENAME TO kernel7.img TO THE SDCARDS FAT32 PARTITION
+
+cp -v arch/arm/boot/zImage /path-to-sdcard-fat32-partition/kernel7.img
+
+# INSTALL THE MODULES TO THE SDCARD'S EXT4 PARTITION
+
+sudo make ARCH=arm CROSS_COMPILE=arm-none-eabi- INSTALL_MOD_PATH=/path-to-the-sdcard-ext4-partition/usr modules_install
+
+# INSTALL THE KERNEL RELATED FILES TO THE SDCARD'S VFAT PARTITION
+
+cp -v arch/arm/boot/dts/*.dtb /path-to-sdcard-fat32-partition/
+cp -v arch/arm/boot/dts/overlays/*.dtb* /path-to-sdcard-fat32-partition/overlays/
+cp -v arch/arm/boot/dts/overlays/README /path-to-sdcard-fat32-partition/overlays/
+
+# INSTALL NEW SANITIZED UAPI HEADERS FOR USER SPACE APPS TO SDCARD'S ROOT PARTITION.
+# (THIS WILL INCLUDE THE NEEDED DVB HEADERS)
+
+sudo cp -Rv ./sanitized-headers/include/* /path-to-the-sdcard-ext4-partition/usr/include/
+
+# Install the updated firmware:
+
+cd firmware
+sudo cp -r * /path-to-the-sdcard-ext4-partition/lib/firmware/
+
+sudo sync         # Flush data still in memory to sdcard
+
+Safely remove the sdcard and put in your Raspberry Pi and boot it up.
+

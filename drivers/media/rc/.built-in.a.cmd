@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/built-in.a := echo >/dev/null; rm -f drivers/media/rc/built-in.a; aarch64-linux-gnu-ar cDPrST drivers/media/rc/built-in.a drivers/media/rc/keymaps/built-in.a drivers/media/rc/rc-main.o drivers/media/rc/rc-ir-raw.o drivers/media/rc/lirc_dev.o drivers/media/rc/keymaps/rc-cec.o drivers/media/rc/bpf-lirc.o

@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/wiznet/modules.order := {   echo drivers/net/ethernet/wiznet/w5100.ko;   echo drivers/net/ethernet/wiznet/w5100-spi.ko; :; } | awk '!x[$$0]++' - > drivers/net/ethernet/wiznet/modules.order
